@@ -1,9 +1,11 @@
+import { Button } from 'antd';
+
+import Main from 'pages/Main';
+
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  const sayHello: string = 'Hello!';
-
   return (
     <div className="App">
       <header className="App-header">
@@ -11,14 +13,8 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {sayHello}
-        </a>
+      <Button type="primary">Click me!</Button>
+      <Main/>
       </header>
     </div>
   );
